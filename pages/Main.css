@@ -8,6 +8,18 @@
   font-family: "Noto Sans KR", sans-serif;
 }
 
+.login {
+  padding-left: 100px;
+  padding-right: 50px;
+  text-decoration: none;
+  color: #000;
+}
+
+.signin {
+  text-decoration: none;
+  color: #000;
+}
+
 .hello {
   padding-top: 1px;
   font-size: 20px;

@@ -20,10 +20,12 @@ const Main = () => {
   return (
     <body>
       <div class="upup">
-        <p class="hello">수지님 어서오세요!</p>
+        <Link to="/login" class="login">로그인</Link>
+        <Link to="/signin" class="signin">회원가입</Link>
+        {/* <p class="hello">수지님 어서오세요!</p>
         <img class="upPHOTO1" src={mypage} />
         <img class="upPHOTO2" src={upheart} />
-        <button class="logout">로그아웃</button>
+        <button class="logout">로그아웃</button> */}
       </div>
 
       <div class="logoANDsearch">
