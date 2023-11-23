@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import './Main.css';
+import './noLogin.css';
 import logo from '../images/logo.svg';
 import search from '../images/search.svg';
 import etc from '../images/etc.svg';
@@ -13,18 +13,13 @@ import soup from '../images/soup.svg';
 import steak from '../images/steak.svg';
 import japan from '../images/sushi.svg';
 import pizza from '../images/pizza.svg';
-import upheart from '../images/upheart.svg';
-import mypage from '../images/mypage.svg';
 
 const Main = () => {
-  //이거 나중에 로그인 유무에 따라 각 화면에 표시되는 위에 로그인/회원가입 OR 어서오세요! 표시되는거 다르게 설정해줘야함
   return (
     <body>
       <div class="upup">
-        <p class="hello">수지님 어서오세요!</p>
-        <img class="upPHOTO1" src={mypage} />
-        <img class="upPHOTO2" src={upheart} />
-        <button class="logout">로그아웃</button>
+        <Link to="/login" class="login">로그인</Link>
+        <Link to="/signin" class="signin">회원가입</Link>
       </div>
 
       <div class="logoANDsearch">

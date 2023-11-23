@@ -86,5 +86,7 @@
   color: #000;
   position: absolute;
   text-align: center;
+  padding-top: 35px;
+  padding-left: 600px;
   font-size: 20px;
 }

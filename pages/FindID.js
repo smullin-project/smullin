@@ -26,6 +26,7 @@ const FindID = () => {
   };
 
   const handleVerifyCode = () => {
+    //나중에 백이랑 연결한 후에 아이디 불러오기
     if (verificationCode === sentVerificationCode) {
       setMessage('회원님의 아이디는 ~~입니다');
     } else {
@@ -40,7 +41,6 @@ const FindID = () => {
   }
 
   return (
-
     <body>
       <Link to='/'>
         <img class="logo" src={logo} />
@@ -59,10 +59,10 @@ const FindID = () => {
           인증번호
           <input class="inputNUM" type="text" value={verificationCode} onChange={(e) => setVerificationCode(e.target.value)} />
         </label>
-        <button class="buttonNUM" type="button" onClick={handleVerifyCode}>인증 확인</button>
+        <button class="buttonNUM" type="button" onClick={handleVerifyCode}>확인</button>
       </div>
-      <p class="error">{errormessage}</p>
 
+      <p class="error">{errormessage}</p>
       <p class="findIDmessage">{message}</p>
 
       <button class="done" type="button" onClick={handleDone}>완료</button>
