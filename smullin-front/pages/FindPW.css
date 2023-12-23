@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap");
+
+* {
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.logoUP {
+  padding-top: 100px;
+  padding-left: 667px;
+}
+
+.formEMAIL2 {
+  display: flex;
+  padding-top: 50px;
+  padding-left: 400px;
+  font-size: 20px;
+}
+
+.formNUM2 {
+  display: flex;
+  padding-top: 20px;
+  padding-left: 400px;
+  font-size: 20px;
+}
+
+
+.formNewPW2 {
+  display: flex;
+  padding-top: 20px;
+  padding-left: 400px;
+  font-size: 20px;
+}
+
+.formPWAgain2 {
+  display: flex;
+  padding-top: 20px;
+  padding-left: 400px;
+  font-size: 20px;
+}
+
+.inputEMAIL2 {
+  margin-left: 93px;
+  width: 400px;
+  height: 40px;
+  padding-left: 15px;
+  border: 2px solid #000;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.inputNUM2 {
+  margin-left: 74px;
+  width: 400px;
+  height: 40px;
+  padding-left: 15px;
+  border: 2px solid #000;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.inputNewPW2 {
+  margin-left: 51px;
+  width: 400px;
+  height: 40px;
+  padding-left: 15px;
+  border: 2px solid #000;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.inputPWAgain2 {
+  margin-left: 32px;
+  width: 400px;
+  height: 40px;
+  padding-left: 15px;
+  border: 2px solid #000;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.buttonEMAIL {
+  width: 136px;
+  height: 40px;
+  margin-left: 20px;
+  border: 2px solid #000;
+  border-radius: 10px;
+  background-color: #fff;
+  font-size: 18px;
+}
+
+.buttonNUM {
+  width: 136px;
+  height: 40px;
+  margin-left: 20px;
+  border: 2px solid #000;
+  border-radius: 10px;
+  background-color: #fff;
+  font-size: 18px;
+}
+
+.buttonPWAgain {
+  width: 136px;
+  height: 40px;
+  margin-left: 20px;
+  border: 2px solid #000;
+  border-radius: 10px;
+  background-color: #fff;
+  font-size: 18px;
+}
+
+.done {
+  width: 130px;
+  height: 40px;
+  margin-left: 700px;
+  margin-top: 80px;
+  border: 2px solid #000;
+  border-radius: 10px;
+  background-color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.error2 {
+  color: red;
+  position: absolute;
+  padding-left: 548px;
+  font-size: 15px;
+}

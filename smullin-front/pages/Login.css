@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap");
+
+* {
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.logo {
+  padding-top: 148px;
+  padding-left: 667px;
+}
+
+.formID {
+  padding-top: 50px;
+  padding-left: 430px;
+  font-size: 20px;
+}
+
+.formPW {
+  padding-top: 20px;
+  padding-left: 430px;
+  font-size: 20px;
+}
+
+.inputID {
+  margin-left: 50px;
+  width: 464px;
+  height: 40px;
+  padding-left: 15px;
+  border: 2px solid #000;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.inputPW {
+  margin-left: 32px;
+  width: 464px;
+  height: 40px;
+  padding-left: 15px;
+  border: 2px solid #000;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.labelPW {
+  margin-top: 50px;
+}
+
+.loginBUTTON {
+  width: 130px;
+  height: 40px;
+  margin-left: 700px;
+  margin-top: 70px;
+  border: 2px solid #000;
+  border-radius: 10px;
+  background-color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.error {
+  color: red;
+  position: absolute;
+  padding-left: 540px;
+  font-size: 15px;
+}
+
+.downMENU {
+  display: flex;
+  padding-top: 50px;
+  padding-left: 610px;
+}
+
+.link {
+  color: #808080;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.line {
+  color: #808080;
+  margin: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+}
