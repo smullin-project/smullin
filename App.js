@@ -1,5 +1,6 @@
 import React from "react";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
+import NoLogin from "./pages/noLogin";
 import Main from "./pages/Main";
 import Login from "./pages/Login";
 import FindID from "./pages/FindID";
@@ -11,7 +12,8 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Main />} />
+        <Route path="/" element={<NoLogin />} />
+        <Route path="/main" element={<Main />} />
         <Route path="/signin" element={<SignIn />} />
         <Route path="/login" element={<Login />} />
         <Route path="/findid" element={<FindID />} />
